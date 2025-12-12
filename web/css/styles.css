@@ -109,6 +109,18 @@ GAME CARD
     opacity: 0;
 }
 
+.calendar_content div.future {
+    opacity: .5;
+}
+
+.calendar_content div.has-game {
+    color: darkgreen;
+}
+
+.calendar_content div.no-game {
+    color: darkred;
+}
+
 .calendar_content div.blank:hover {
     cursor: default;
     border: 1px solid transparent;
